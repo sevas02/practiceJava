@@ -21,7 +21,7 @@ public class calcTest {
     @Test
     void multiply(){
         String actual = Main.calculate("10/2", "*", "2");
-        assertEquals("20/2", actual);
+        assertEquals("10", actual);
     }
 
     @Test

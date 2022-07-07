@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="calculeter" />
+        <module name="practiceJava" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="calculeter" target="8" />
+      <module name="practiceJava" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>
